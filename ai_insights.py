@@ -98,7 +98,7 @@ def get_ai_insights(findings: list, stats: dict) -> dict:
     Returns a dict with keys: summary, overall_risk, key_issues, recommendations
     On error, returns a dict with key: error
     """
-    api_key = "AIzaSyAZUxwOBLa5SqB-rW3AjWlq4HF1P_9FGWQ"
+    api_key = "Your_API_Key"
 
     prompt = _build_prompt(findings, stats)
 
